@@ -25,4 +25,4 @@ jobs:
     - name: Disparar el siguiente bot de inmediato
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      run: gh workflow run ejecutar.yml --ref main
