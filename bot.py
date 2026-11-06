@@ -32,4 +32,4 @@ if __name__ == "__main__":
         print(f"Enviando usuario ficticio #{i+1}...")
         simular_visita()
         if i == 0:
-            time.sleep(5)
+            time.sleep(1)
